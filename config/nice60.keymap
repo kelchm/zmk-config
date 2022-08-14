@@ -26,17 +26,17 @@
           &kp TAB         &kp Q   &kp W             &kp E   &kp R   &kp T        &kp Y   &kp U   &kp I      &kp O              &kp P       &kp LBKT   &kp RBKT           &kp BSLH
  &kp LEFT_COMMAND         &kp A   &kp S             &kp D   &kp F   &kp G        &kp H   &kp J   &kp K      &kp L           &kp SEMI        &kp SQT                       &kp RET
         &kp LSHFT                 &kp Z             &kp X   &kp C   &kp V        &kp B   &kp N   &kp M  &kp COMMA            &kp DOT       &kp FSLH                     &kp RSHFT
-        &kp LCTRL  &kp LEFT_ALT          &kp LEFT_COMMAND                  &lt 1 SPACE                             &kp RIGHT_COMMAND  &kp RIGHT_ALT      &mo 1          &kp GRAVE
+        &kp LCTRL  &kp LEFT_ALT          &kp LEFT_COMMAND                  &lt 1 SPACE                             &kp RIGHT_COMMAND  &kp RIGHT_ALT      &mo 2          &kp GRAVE
             >;
         };
 
         spacefn_layer {
             bindings = <
- &trans          &kp F1          &kp F2           &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &trans  &trans          &kp DEL
- &trans        &kp HOME    &kp UP_ARROW          &kp END     &kp  &trans  &trans  &trans  &trans  &trans   &trans  &trans  &trans           &trans
- &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW     &kp  &trans  &trans  &trans  &trans  &trans   &trans  &trans                   &trans
- &trans                          &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans  &trans                   &trans
- &trans          &trans                           &trans                  &trans                           &trans  &trans  &trans           &trans
+ &trans          &kp F1        &kp F2           &kp F3         &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &trans  &trans          &kp DEL
+ &trans        &kp HOME  &kp UP_ARROW          &kp END    &kp PAGE_UP  &trans  &trans  &trans  &trans  &trans   &trans  &trans  &trans           &trans
+ &trans  &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &trans  &trans  &trans  &trans  &trans   &trans  &trans                   &trans
+ &trans                        &trans           &trans         &trans  &trans  &trans  &trans  &trans  &trans   &trans  &trans                   &trans
+ &trans          &trans                         &trans                         &trans                           &trans  &trans  &trans           &trans
             >;
         };
 
